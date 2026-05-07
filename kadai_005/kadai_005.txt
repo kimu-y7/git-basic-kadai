@@ -1,13 +1,37 @@
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git init
+Initialized empty Git repository in C:/Users/dev/OneDrive/Desktop/lesson/git_challenge/.git/
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> New-Item hello_world.txt
+
+
+    ディレクトリ: C:\Users\dev\OneDrive\Desktop\lesson\git_challenge
+
+
+Mode                 LastWriteTime         Length Name                                                                                                         
+----                 -------------         ------ ----                                                                                                         
+-a----        2026/05/07     17:00              0 hello_world.txt                                                                                              
+
+
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git commit -m "hello_world.txtを追加"         
+[main (root-commit) 4dbbf67] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> echo "こんにちは、世界！!" >> hello_world.txt
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git commit -m "日本語訳を追記"
+[main f999611] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git log
-commit 9c3fb06fadff5b70062106532b8c95a9ac178ed7 (HEAD -> main)
+commit f999611c0fac1db8833738865246f9575158237a (HEAD -> main)
 Author: kimu-y7 <y.kimura@e-corporation.co.jp>
-Date:   Thu May 7 14:31:18 2026 +0900
+Date:   Thu May 7 17:12:00 2026 +0900
 
     日本語訳を追記
 
-commit da61c73b25a99658f3215cb28ab9fcb3d108e0af
+commit 4dbbf67aa502e6a64004bcc082d8456176e9011b
 Author: kimu-y7 <y.kimura@e-corporation.co.jp>
-Date:   Thu May 7 14:30:45 2026 +0900
+Date:   Thu May 7 17:05:42 2026 +0900
 
     hello_world.txtを追加
 PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge>
