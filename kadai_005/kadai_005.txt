@@ -1,0 +1,13 @@
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge> git log
+commit 9c3fb06fadff5b70062106532b8c95a9ac178ed7 (HEAD -> main)
+Author: kimu-y7 <y.kimura@e-corporation.co.jp>
+Date:   Thu May 7 14:31:18 2026 +0900
+
+    日本語訳を追記
+
+commit da61c73b25a99658f3215cb28ab9fcb3d108e0af
+Author: kimu-y7 <y.kimura@e-corporation.co.jp>
+Date:   Thu May 7 14:30:45 2026 +0900
+
+    hello_world.txtを追加
+PS C:\Users\dev\OneDrive\Desktop\lesson\git_challenge>
